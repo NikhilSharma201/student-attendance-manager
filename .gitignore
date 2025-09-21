@@ -19,6 +19,31 @@
 *.tar.gz
 *.rar
 
+# IDE settings (IntelliJ, VS Code, Eclipse)
+.idea/
+*.iml
+.vscode/
+*.classpath
+*.project
+*.settings/
+
+# Build folders
+/target/
+/build/
+/out/
+
+# Frontend assets (if using JS packages or bundlers later)
+node_modules/
+dist/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Environment and config
+.env
+*.db
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
